@@ -1,0 +1,58 @@
+:root {
+    --roboto: "Roboto", sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --biru: #305B90;
+    --hijau: #026310;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #ddd;
+    font-family: var(--roboto);
+}
+
+nav {
+    background-color: var(--biru);
+}
+
+a.nav-link.active {
+    color: orange !important;
+}
+
+a.nav-link {
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+
+a.nav-link:hover {
+    background-color: orange;
+    color: black !important;
+}
+
+#content {
+    height: 100vh;
+    background-color: var(--hijau);
+}
+
+.gb-gedung {
+    margin-top: 70px;
+    height: 100%;
+    width: 80%;
+}
+
+.kotak-services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bg-services {
+    background-color: #adadad;
+    height: 100px;
+    width: 100px;
+    line-height: 125px;
+}
